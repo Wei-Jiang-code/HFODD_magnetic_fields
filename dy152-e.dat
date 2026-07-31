@@ -1,0 +1,233 @@
+============================================================================
+| This file (dy152-e.dat) contains the input data for the code HFODD.      |
+| Values of all parameters are identical to the default values assumed by  |
+| the code when no input data are provided.                                |
+============================================================================
+                          ----------  General data  ----------
+NUCLIDE
+            28    28
+ITERATIONS
+            250
+ITERAT_EPS
+            0.000001
+MAXANTIOSC
+            1
+PING-PONG
+            0.0000   3
+CHAOTIC
+            0
+PHASESPACE
+            30      30      30      30
+                          ----------  Interaction  -----------
+SKYRME-SET
+            SKM*
+SKYRME-STD
+            1      1   0   0   1
+HBAR2OVR2M}
+            20.73620941
+SPIN_ORBIT
+            120.0 120.0
+LANDAU
+            0    0.0  0.0  0.0  0.0  0.0  0.0
+LANDAU-SAT
+            -1.0   -1.0   -1.0
+EVE_SCA_TS   RHO       RHOD      LPR       TAU       SCU       DIV
+            1.  1.    1.  1.    1.  1.    1.  1.    1.  1.    1.  1.
+ODD_SCA_TS   SPI       SPID      LPS       CUR       KIS       ROT
+            1.  1.    1.  1.    1.  1.    1.  1.    1.  1.    1.  1.
+EVE_SCA_PM   RHO       RHOD      LPR       TAU       SCU       DIV
+            1.  1.    1.  1.    1.  1.    1.  1.    1.  1.    1.  1.
+ODD_SCA_PM   SPI       SPID      LPS       CUR       KIS       ROT
+            1.  1.    1.  1.    1.  1.    1.  1.    1.  1.    1.  1.
+G_SCALING
+            1.0  1.0
+INI_FERMI
+            -8.0   -8.0
+INI_DELTA
+            1.0     1.0
+FIXDELTA_N
+            1.0       0
+FIXDELTA_P
+            1.0       0
+PAIRNFORCE
+            -200.0  0.0  1.0
+PAIRPFORCE
+            -200.0  0.0  1.0
+PAIR_FORCE
+            -200.0  0.0  1.0
+PAIRNINTER
+            -200.0 0.16  1.0
+PAIRPINTER
+            -200.0 0.16  1.0
+PAIR_INTER
+            -200.0 0.16  1.0
+CUTOFF
+            60.0
+                          ----------  Symmetries  ------------
+SIMPLEXY
+            1
+SIGNATUREY
+            1
+PARITY
+            1
+ROTATION
+            1
+TIMEREVERS
+            0
+TSIMPLEX_Y
+            -1
+TSIMPLEXES
+            1      1
+TSIMPLEX3D
+            1     -1      1
+PAIRING
+            0
+HFB
+            0
+                          ----------  Configurations  --------
+PHNONE_NEU            PARTICLES                 HOLES
+            1             00                      00
+PHNONE_PRO            PARTICLES                 HOLES
+            1             00                      00
+VACSIM_NEU            SIMP SIMM
+                       10   10
+VACSIM_PRO            SIMP SIMM
+                       10   10
+PHSIMP_NEU            PARTICLES                 HOLES
+            1          00   00                 00   00
+PHSIMP_PRO            PARTICLES                 HOLES
+            1          00   00                 00   00
+VACPAR_NEU            PARP PARM
+                       14   6
+VACPAR_PRO            PARP PARM
+                       14   6
+PHPARI_NEU            PARTICLES                 HOLES
+            1          00   00                 00   00
+PHPARI_PRO            PARTICLES                 HOLES
+            1          00   00                 00   00
+VACSIG_NEU       PPSP PPSM PMSP PMSM
+                  08   08   06   06
+VACSIG_PRO       PPSP PPSM PMSP PMSM
+                  08   08   06   06
+PHSIGN_NEU            PARTICLES                 HOLES
+            1     00   00   00   00       00   00   00   00
+PHSIGN_PRO            PARTICLES                 HOLES
+            1     00   00   00   00       00   00   00   00
+DIANON_NEU            PARTICLES                 HOLES              TYPE
+                          00                      00                 0
+DIANON_PRO            PARTICLES                 HOLES              TYPE
+                          00                      00                 0
+DIASIM_NEU            PARTICLES                 HOLES              TYPE
+                       00   00                 00   00             0  0
+DIASIM_PRO            PARTICLES                 HOLES              TYPE
+                       00   00                 00   00             0  0
+DIAPAR_NEU            PARTICLES                 HOLES              TYPE
+                       00   00                 00   00             0  0
+DIAPAR_PRO            PARTICLES                 HOLES              TYPE
+                       00   00                 00   00             0  0
+DIASIG_NEU            PARTICLES                 HOLES              TYPE
+                  00   00   00   00       00   00   00   00     0  0  0  0
+DIASIG_PRO            PARTICLES                 HOLES              TYPE
+                  00   00   00   00       00   00   00   00     0  0  0  0
+                          ----------  Numerical data  --------
+MAX_MULTIP
+            2      4      4
+MAX_SURFAC
+            0      0
+MAX_MAGNET
+            0      0
+COULOMB
+            80    79   0.25
+SLOW-DOWN
+            0.5  0.5
+SLOW-PAIR
+            0.5
+EPS_HERMIT
+            1.00E-14
+OPTI_GAUSS
+            1
+GAUSHERMIT
+            18    18    32
+                          ---  Parameters of the HO basis  ---
+BASIS_SIZE
+            15   301   800.
+HOMEGAZERO
+            1.2
+SURFAC_PAR
+            28     28   1.23
+SURFAC_DEF
+            2      0   0.61
+SURFAC_DEF
+            4      0   0.10
+                          ----------  Constraints  -----------
+OMEGAY
+            0.00
+B_Z
+            0.00
+B_Y
+            0.00
+OMISOY
+            0.00
+OMEGA_XYZ
+            0.00   0.00   0.00      0
+OMEGA_RTP
+            0.00   0.00   0.00      0
+OMISO_RTP
+            0.00   0.00   0.00      0
+OMEGA_TURN
+            0
+MULTCONSTR
+            2      0   0.05   12.   0
+SURFCONSTR
+            2      0   0.00   00.   0
+SPINCONSTR
+                       0.00    0.   0
+SPICON_XYZ
+                       0.00    0.   0
+                       0.00    0.   0
+                       0.00    0.   0
+SPICON_OME
+                       0.00    0.   0
+                          ----  Output-file  parameters  -----
+PRINT-ITER
+            1      0      1
+PRINT-MOME
+            1      1      1
+PRINT-INTR
+            1
+EALLMINMAX
+            -60.   0.
+EQUASI_MAX
+            10.0
+                          -------------  Files  --------------
+REVIEWFILE
+            HFODD.REV
+REVIEW
+            2
+RECORDFILE
+            HFODD.REC
+RECORDSAVE
+            1
+REPLAYFILE
+            HFODD.REP
+WOODSAFILE
+            WOODS.WFN
+COULOMFILE
+            HFODD.COU
+COULOMSAVE
+            0      0
+                          -----  Starting the iteration  -----
+RESTART
+            0
+CONT_PAIRI
+            0
+CONT_OMEGA
+            0
+READ_WOODS
+            0
+NILSSONPAR
+            0   -1.175 -0.247   -1.175 -0.352    11.170  11.170  6.280
+                          ----------  Calculate  -------------
+EXECUTE
+                          ----------  Terminate  -------------
+ALL_DONE
